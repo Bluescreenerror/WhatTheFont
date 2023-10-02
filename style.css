@@ -1,0 +1,73 @@
+html{scroll-behavior: smooth;}
+body{
+    background-color: rgb(35, 34, 34);
+    margin:0;
+    color: #f9f9f9;
+}
+
+@font-face {
+    font-family: Kill;
+    src: url(./Kill.ttf)
+}
+
+@font-face {
+    font-family: Road Rage;
+    src: url(./Roadrage.otf);
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Road Rage;
+    letter-spacing: 10px;
+    color: rgb(132, 32, 17);
+    font-size: 2em;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+section{
+    margin: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Exo 2', sans-serif;
+    border: 3px solid rgb(132, 32, 17);
+    border-radius: 25px;
+    padding: 8px 15px;
+    background-color: rgb(132, 32, 17);
+}
+
+section h2{
+    font-family: Road Rage;
+    font-size: 3em;
+    color: black;
+}
+
+.special{
+    font-family: Road Rage;
+}
+
+section img{
+    width: 300px;
+    height: auto;
+}
+
+section p{
+    text-align: center;
+    font-size: 2em;
+    color: #f9f9f9;
+}
+
+p span{
+    font-family: Kill;
+    color: black;
+    font-size: 1.8em;
+}
+
